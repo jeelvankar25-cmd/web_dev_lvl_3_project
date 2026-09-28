@@ -1,0 +1,43 @@
+:root {
+  --white: "#fff";
+  --black: "#000";
+  --cyan: "#AEDEE0";
+  --salmon: "#EF9D71";
+}
+
+*::selection {
+  background-color: #ef9d71;
+  color: #fff;
+}
+
+body[theme="white"] {
+  background-color: #fff;
+}
+
+body[theme="white"] .section {
+  color: #000;
+}
+
+body[theme="black"] {
+  background-color: #000;
+}
+
+body[theme="black"] .section {
+  color: #fff;
+}
+
+body[theme="cyan"] {
+  background-color: #aedee0;
+}
+
+body[theme="cyan"] .section {
+  color: #000;
+}
+
+body[theme="salmon"] {
+  background-color: #EF9D71;
+}
+
+body[theme="salmon"] .section {
+  color: #000;
+}
